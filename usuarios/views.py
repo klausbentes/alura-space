@@ -6,7 +6,7 @@ from django.contrib import auth, messages
 # Create your views here.
 def login(request):
     form = LoginForms()
-    
+
     if request.method == 'POST':
         form = LoginForms(request.POST)
 
